@@ -1,8 +1,8 @@
 <?php
 $dbhost = getenv("MYSQL_SERVICE_HOST");
 $dbport = getenv("MYSQL_SERVICE_PORT");
-$dbuser = getenv("user1A3");
-$dbpwd = getenv("7q2YfaAiSVVFweCN");
+$dbuser = getenv("user123");
+$dbpwd = getenv("123456");
 $dbname = getenv("sampledb");
 
 $connection = new mysqli($dbhost, $dbuser, $dbpwd, $dbname);
